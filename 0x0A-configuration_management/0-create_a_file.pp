@@ -2,7 +2,7 @@
 # The file have permission of 0744
 # File owner and group is www-data
 
-file{ '/tmp/school':
+file { '/tmp/school':
 mode	=> '0744',
 owner 	=> 'www-data',
 group	=> 'www-data',
