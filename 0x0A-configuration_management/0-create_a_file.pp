@@ -2,9 +2,9 @@
 #The file have permission of '0744'
 #File owner and group is 'www-data'
 
-	File {'/tmp/school':
-	Mode	 	=> '0744',
-	Owner 		=> 'www-data',
-	Group		=> 'www-data',
-	Contents 	=> 'I love Puppet',
+file { '/tmp/school':
+	mode	 	=> '0744',
+	owner 		=> 'www-data',
+	group		=> 'www-data',
+	contents 	=> 'I love Puppet',
 }
